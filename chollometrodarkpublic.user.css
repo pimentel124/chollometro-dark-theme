@@ -1,0 +1,214 @@
+/* ==UserStyle==
+@name           Chollometro Dark Theme (Public)
+@version        1.1.0
+@description    Modo oscuro para Chollometro.com
+@supportURL     https://www.chollometro.com/temas/modo-oscuro-web-chollometro-55918
+@updateURL      https://gist.github.com/rafitamolin/272847154044c34d3236466d97699d7f/raw/d1c061328c18d8cc1be179569d85573fec435e32/chollometrodarkpublic.user.css
+@author         Jamie932 (https://github.com/Jamie932)
+@author         rafitamolin (https://www.rafitamolin.com)
+@preprocessor   stylus
+@namespace      github.com/openstyles/stylus
+@license        CC BY-NC-SA 4.0
+==/UserStyle== */
+@-moz-document domain("www.hotukdeals.com"), domain("www.dealabs.com"), domain("www.chollometro.com") {
+body {
+    background: #2a2a2e !important;
+}
+.user, .btn--mode-filter {
+    color: #e3e3e3;
+}
+.subNavMenu-btn {
+    background-color: #38383d;
+    color: #ffffff;
+}
+.linkBlue, .thread-userOptionTeaser, .link, .staticPageHtml a, .userHtml a {
+    color: #7cc2ef;
+}
+.textBadge--greyBackground {
+    background-color: #7e3206;
+}
+.tGrid-row,
+.navMenu-trigger,
+.navMenu-trigger:hover,
+.navMenu-trigger:focus,
+.navDropDown-btn,
+.btn--mode-primary,
+.btn--mode-primary:focus,
+.btn--mode-primary:hover,
+.btn--mode-special,
+.btn--mode-special:focus,
+.btn--mode-special:hover,
+.vote-box,
+.btn--mode-boxSec,
+.btn--mode-boxSec:focus,
+.btn--mode-boxSec:hover,
+.popover-content,
+.input,
+.inputBox,
+.secretCode-codeBox,
+.toolbar,
+.voucher-code,
+.voucher-teaser,
+.btn--disabled,
+.btn:disabled,
+.card-close:disabled,
+.subNavMenu-list.cept-sort-tabs-merchant-list,
+.navDropDown-head,
+.btn {
+    background-color: #38383d !important;
+}
+.subNav,
+.thread--type-list,
+.card,
+.text--overlay,
+.threadItem,
+.cept-thread-content,
+.input--search,
+.comments-marker-down,
+.comments-marker-down::after,
+.comments-marker-up,
+.comments-marker-up::after,
+.bg--em,
+.thread--type-card {
+    background-color: #2a2a2e !important;
+}
+.nav,
+.threadItem-metaRibbons,
+.bg--main,
+.voteBar,
+.navDropDown-link:hover,
+.conversationList-msg,
+.notification-item,
+.softMessages-item,
+.comments--top-header {
+    background-color: #4a4a4f !important;
+}
+.subNav,
+.subNavMenu-link--selected,
+.subNavMenu,
+.userProfile-title--sub,
+.thread--type-list,
+.thread-title,
+.text--color-brandPrimary,
+.thread-username,
+.thread-link,
+.thread-price,
+.nav-link-text,
+.cept-thread-content,
+.plainSelect,
+.btn--mode-boxSec,
+.btn--mode-boxSec:focus,
+.btn--mode-boxSec:hover,
+.text--color-charcoal,
+.text--color-blue,
+.thread-userOptionLink,
+.mute--text2,
+.navMenu-link,
+.text--color-navDropDownPrimary,
+.formList-label,
+.formList-static--em,
+.tabbedInterface-tab {
+    color: #e3e3e3 !important;
+}
+.subNav,
+.vote-box,
+.btn--mode-boxSec,
+.btn--mode-boxSec:focus,
+.btn--mode-boxSec:hover,
+.input--search,
+.popover-content,
+.navDropDown-head,
+.notification-item,
+.navDropDown-footer,
+.navDropDown-link,
+.btn,
+.conversationList-msg {
+    border: none !important;
+}
+.input,
+.inputBox,
+.secretCode-codeBox,
+.toolbar,
+.voucher-code,
+.voucher-teaser,
+.btn--disabled,
+.btn:disabled,
+.card-close:disabled,
+.comments-item,
+.threadItem-metaRibbons,
+.softMessages-item {
+    border: none !important;
+}
+.text--color-price,
+.vote-temp,
+.input--search,
+.vote-temp--hot,
+.conversationList-msgPreview {
+    color: #fff !important;
+}
+.vote-btn {
+    background-color: #fff !important;
+}
+.subNavMenu-link--selected::after {
+    background-color: #e3e3e3 !important;
+}
+.ico--type-comment-charcoal,
+.cept-save-btn,
+.thread-title--list::after {
+    display: none !important;
+}
+.subNav {
+    font-weight: 700 !important;
+}
+.overflow--fade::after,
+.thread-title--card::after,
+.overflow--fade-b-r--s::after,
+.notifications-content {
+    background: none !important;
+}
+.card {
+    color: #cfcfcf !important;
+    font-weight: normal !important;
+}
+.nav-link--selected {
+    border-bottom: 3px solid #e3e3e3 !important;
+}
+.text--overlay::before {
+    background-image: linear-gradient(90deg, hsla(0, 0%, 100%, 0), #2a2a2e 90%) !important;
+}
+.bg--inverted {
+    background: transparent !important;
+}
+.link {
+    color: #7cc2ef !important;
+}
+.tabbedInterface-tab--selected {
+    color: #075ea4 !important;
+}
+.vote-box,
+.fadeOuterEdge--l {
+    box-shadow: none !important;
+}
+.input-caretLeft,
+.input-caretLeft::before {
+    border-right: none !important;
+}
+.subNavMenu-item--separator {
+    border-bottom: none !important;
+}
+.navDropDown-head {
+    font-weight: bold !important;
+}
+.text--color-charcoalTint {
+    color: #e3e3e3;
+}
+.text--b.size--all-m.space--h-1{
+    color: #35373b;
+}
+.space--h-2.space--v-2.bg--color-greyPanel.text--color-charcoal{
+    background: #bfc3c8;
+}
+.bg--color-greyPanel {
+    background-color: #38383D;
+}
+}
