@@ -95,10 +95,8 @@ span.space--ml-1.size--all-l.size--fromW3-xl {
 span.text--color-greyShade.flex--inline.boxAlign-ai--all-c.space--ml-2 {
     display: none;
 }
-.comment-hPadding.comment-padding.page2-space--h-p.space--h-3.space--l-3.staticPageHtml td.staticPageHtml th.threadItemV2-headerMeta.threadItemV2-side {
+a.cept-comment-link.btn.space--h-3.btn--mode-boxSec {
     padding-left: 0.4em!important;
-}
-.comment-hPadding.comment-padding.page2-space--h-p.space--h-3.space--r-3.staticPageHtml td.staticPageHtml th {
     padding-right: 0.4em!important;
 }
 .threadGrid .cept-description-container {
@@ -225,5 +223,4 @@ span.text--color-greyShade.flex--inline.boxAlign-ai--all-c.space--ml-2 {
 }
 .thread-listDiscountCell {
     display: none;
-}
 }
