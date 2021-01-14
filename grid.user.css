@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           Pepper Websites Grid Mode
-@version        1.0.0
+@version        1.0.1
 @description    Vista mosaico para todas las webs de Pepper
 @updateURL      https://github.com/rafitamolin/chollometro-dark-theme/raw/main/grid.user.css
 @author         scotchme (https://userstyles.org/users/1050202)
@@ -10,25 +10,6 @@
 @license        CC BY-NC-SA 4.0
 ==/UserStyle== */
 @-moz-document url-prefix("https://www.mydealz.de/"), url-prefix("https://www.promodescuentos.com/"), url-prefix("https://www.pelando.com.br/"), url-prefix("https://www.hotukdeals.com/"), url-prefix("https://www.dealabs.com/"), url-prefix("https://nl.pepper.com/"), url-prefix("https://www.preisjaeger.at/"), url-prefix("https://www.pepper.pl/"), url-prefix("https://www.chollometro.com/"), url-prefix("https://www.pepper.ru/"), url-prefix("https://www.pepper.it/") {
-/*
-
-# GRID MODE #
-Brings back grid mode to Pepper
-
-# COMPATIBLE WITH #
-https://www.pepper.pl/
-https://www.mydealz.de/
-https://www.promodescuentos.com/
-https://www.pelando.com.br/
-https://www.hotukdeals.com/
-https://www.dealabs.com/
-https://nl.pepper.com/
-https://www.preisjaeger.at/
-https://www.chollometro.com/
-https://www.pepper.ru/
-https://www.pepper.it/
-
-*/
  .cept-thread {
     display: block !important;
     width: 100% !important;
@@ -114,10 +95,10 @@ span.space--ml-1.size--all-l.size--fromW3-xl {
 span.text--color-greyShade.flex--inline.boxAlign-ai--all-c.space--ml-2 {
     display: none;
 }
-.comment-hPadding, .comment-padding, .page2-space--h-p, .space--h-3, .space--l-3, .staticPageHtml td, .staticPageHtml th, .threadItemV2-headerMeta, .threadItemV2-side {
+.comment-hPadding.comment-padding.page2-space--h-p.space--h-3.space--l-3.staticPageHtml td.staticPageHtml th.threadItemV2-headerMeta.threadItemV2-side {
     padding-left: 0.4em!important;
 }
-.comment-hPadding, .comment-padding, .page2-space--h-p, .space--h-3, .space--r-3, .staticPageHtml td, .staticPageHtml th {
+.comment-hPadding.comment-padding.page2-space--h-p.space--h-3.space--r-3.staticPageHtml td.staticPageHtml th {
     padding-right: 0.4em!important;
 }
 .threadGrid .cept-description-container {
