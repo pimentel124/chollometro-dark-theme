@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           Chollometro Dark Theme (Public)
-@version        1.1.0
+@version        1.2.0
 @description    Modo oscuro para Chollometro.com
 @supportURL     https://www.chollometro.com/temas/modo-oscuro-web-chollometro-55918
 @updateURL      https://github.com/rafitamolin/chollometro-dark-theme/raw/main/chollometrodarkpublic.user.css
@@ -11,18 +11,47 @@
 @license        CC BY-NC-SA 4.0
 ==/UserStyle== */
 @-moz-document domain("www.hotukdeals.com"), domain("www.dealabs.com"), domain("www.chollometro.com") {
+div.flex.flex--grow-1.overflow--scrollX-raw.snap--xMandatory.hottest--list.hide-scrollbar {
+    background-color: #2A2A2E;
+}
+
+.tabbedInterface-tab--horizontal {
+    background-color: #38383d;
+}
+
+.tabbedInterface-tab--selected.text--b {
+    color: #a6d7ff !important;
+}
+
+.tabbedInterface-tab--primary:not(.tabbedInterface-tab--selected):hover {
+	background-color: #2A2A2E;
+}
+
+.bg--color-white, .bg--main, .card, .listingProfile, .thread--type-card, .thread--type-list {
+    background-color: #38383d;
+}
+
+span.text--lh-1-5.space--l-2 {
+    color: #cfcfcf;
+}
+
+div.space--mt-2.space--b-4.space--t-3.bg--color-white.bRad--fromW4-a {
+    background-color: #2A2A2E;
+}
+
 body {
     background: #2a2a2e !important;
 }
 .user, .btn--mode-filter {
     color: #e3e3e3;
 }
-.subNavMenu-btn {
-    background-color: #38383d;
-    color: #ffffff;
-}
 .linkBlue, .thread-userOptionTeaser, .link, .staticPageHtml a, .userHtml a {
     color: #7cc2ef;
+}
+.subNavMenu-btn, span.subNavMenu-btn.subNavMenu-hide--menu-selected {
+    border: 1px solid #d1d5db;
+    background-color: #38383d;
+    color: #ffffff;
 }
 .textBadge--greyBackground {
     background-color: #7e3206;
