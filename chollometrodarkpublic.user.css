@@ -15,6 +15,10 @@ div.flex.flex--grow-1.overflow--scrollX-raw.snap--xMandatory.hottest--list.hide-
     background-color: #2A2A2E;
 }
 
+.text--color-charcoalShade {
+    color: #e3e3e3;
+}
+
 .tabbedInterface-tab--horizontal {
     background-color: #38383d;
 }
@@ -28,7 +32,7 @@ div.flex.flex--grow-1.overflow--scrollX-raw.snap--xMandatory.hottest--list.hide-
 }
 
 .bg--color-white, .bg--main, .card, .listingProfile, .thread--type-card, .thread--type-list {
-    background-color: #38383d;
+    background-color: #2A2A2E;
 }
 
 span.text--lh-1-5.space--l-2 {
