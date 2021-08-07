@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           Chollometro Dark Theme (Public)
-@version        1.2.1
+@version        1.2.2
 @description    Modo oscuro para Chollometro.com
 @supportURL     https://www.chollometro.com/temas/modo-oscuro-web-chollometro-55918
 @updateURL      https://github.com/rafitamolin/chollometro-dark-theme/raw/main/chollometrodarkpublic.user.css
@@ -10,7 +10,7 @@
 @namespace      github.com/openstyles/stylus
 @license        CC BY-NC-SA 4.0
 ==/UserStyle== */
-@-moz-document domain("www.hotukdeals.com"), domain("www.dealabs.com"), domain("www.chollometro.com") {
+@-moz-document domain("www.hotukdeals.com"), domain("www.dealabs.com"), regexp("https://www\\.chollometro\\.com/(?!admin).*") {
 div.flex.flex--grow-1.overflow--scrollX-raw.snap--xMandatory.hottest--list.hide-scrollbar {
     background-color: #2A2A2E;
 }
