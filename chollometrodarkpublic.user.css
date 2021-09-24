@@ -14,6 +14,14 @@
 div.flex.flex--grow-1.overflow--scrollX-raw.snap--xMandatory.hottest--list.hide-scrollbar {
     background-color: #2A2A2E;
 }
+	
+button.comment-option.space--mr-3 {
+    color: #8F949B;
+}
+
+span.comment-like{
+    color: #79c3ff;
+}
 
 .text--color-charcoalShade {
     color: #e3e3e3;
