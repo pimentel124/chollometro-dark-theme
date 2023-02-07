@@ -12,18 +12,22 @@ Para instalar los estilos es necesario tener instalado el plugin [Stylus](https:
 
 ## Estilos
 
-* [Chollometro Dark](https://github.com/pimentel124/chollometro-dark-theme/raw/main/chollometro_dark.user.css): Este estilo cambia tanto la apariencia de la web como el tipo de letra.
-* [Chollometro New Dark](): Este estilo cambia la apariencia de la web pero no el tipo de letra.
+* [Dark Original](https://github.com/pimentel124/chollometro-dark-theme/raw/main/chollometro_dark.user.css): Este estilo cambia tanto la apariencia de la web como el tipo de letra.
+* [Dark New Font](https://github.com/pimentel124/chollometro-dark-theme/raw/main/chollometro_dark_newFont.user.css): Este estilo cambia la apariencia de la web pero no el tipo de letra.
 * [Tipo de letra original](https://github.com/pimentel124/chollometro-dark-theme/raw/main/chollometro_onlyfont.user.css): Este estilo solo cambia el tipo de letra.
 * Dark Oled (en desarrollo):
 
 ## Capturas
 
-### Chollometro Dark
+### Dark Original
 
 ![Chollometro Dark](Preview/Normal-Dark-Theme.png)
 
 <br>
+
+### Dark New Font
+
+![Chollometro Dark New Font](Preview/New-Font-Dark-Theme.png)
 
 ### Tipo de letra original
 
