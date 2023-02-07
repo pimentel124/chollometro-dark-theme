@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           Chollometro Dark Theme
-@version        2.1.3
+@version        2.1.4
 @description    Cambio de fuente para Chollometro
 @updateURL      https://github.com/pimentel124/chollometro-dark-theme/raw/main/chollometro_onlyfont.user.css
 @author         pimentel124 (https://github.com/pimentel124)
@@ -11,6 +11,6 @@
 @-moz-document domain("chollometro.com") {
     /* Inserte el código aquí... */
     * {
-        font-family: sans-serif;
+        font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     }
 }

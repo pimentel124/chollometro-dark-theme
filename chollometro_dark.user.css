@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           Chollometro Dark Theme
-@version        2.1.4
+@version        2.1.5
 @description    Modo oscuro para Chollometro.com
 @updateURL      https://github.com/pimentel124/chollometro-dark-theme/raw/main/chollometro_dark.user.css
 @author         pimentel124 (https://github.com/pimentel124)
@@ -126,7 +126,7 @@ regexp("https://www\\.chollometro\\.com/(?!admin).*") {
     }
 
     * {
-        font-family: sans-serif;
+        font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     }
 
     .button--emoji,

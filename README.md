@@ -10,7 +10,7 @@ Para instalar los estilos es necesario tener instalado el plugin [Stylus](https:
 * [Firefox](https://addons.mozilla.org/es/firefox/addon/styl-us/)
 * [Opera add-ons](https://addons.opera.com/extensions/details/stylus/)
 
-Una vez instalada la extensión unicamente basta con hacer click en cualquiera de los enlaces de los estilos que se encuentran más abajo. Una vez hecho esto se abrirá una nueva pestaña con el estilo seleccionado, solo basta con hacer click en el botón situado en la parte superior izquierda `Install style` y listo.  
+Una vez instalada la extensión únicamente basta con hacer click en cualquiera de los enlaces de los estilos que se encuentran más abajo. Una vez hecho esto se abrirá una nueva pestaña con el estilo seleccionado, solo basta con hacer click en el botón situado en la parte superior izquierda `Install style` y listo.  
 
 ![Alt text](Preview/Instalacion.png)
 
