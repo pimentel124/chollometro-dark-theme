@@ -17,6 +17,9 @@ regexp("https://www\\.chollometro\\.com/(?!admin).*") {
         font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     }
 
+    autoSuggest-suggestion.autoSuggest-suggestion--selected {
+        background-color: #f6f7f90d !important;
+    }
 
     div.flex.flex--grow-1.overflow--scrollX-raw.snap--xMandatory.hottest--list.hide-scrollbar {
         background-color: #2a2ad5;
