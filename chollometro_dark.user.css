@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           Chollometro tema oscuro + letra vieja
-@version        2.1.7
+@version        2.1.9
 @description    Modo oscuro para Chollometro.com
 @updateURL      https://github.com/pimentel124/chollometro-dark-theme/raw/main/chollometro_dark.user.css
 @author         pimentel124 (https://github.com/pimentel124)
@@ -17,9 +17,11 @@ regexp("https://www\\.chollometro\\.com/(?!admin).*") {
         font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     }
 
-    autoSuggest-suggestion.autoSuggest-suggestion--selected {
+
+    .autoSuggest-suggestion.autoSuggest-suggestion--selected {
         background-color: #f6f7f90d !important;
     }
+
 
     div.flex.flex--grow-1.overflow--scrollX-raw.snap--xMandatory.hottest--list.hide-scrollbar {
         background-color: #2a2ad5;
@@ -137,6 +139,9 @@ regexp("https://www\\.chollometro\\.com/(?!admin).*") {
         border: none !important;
     }
 
+    .bg--color-brandPrimaryPale {
+        background-color: #2a2a2e;
+    }
 
     .button--emoji,
     .button--intro-box,
@@ -183,10 +188,11 @@ regexp("https://www\\.chollometro\\.com/(?!admin).*") {
         --text-default: #9a9a9c;
     }
 
-    li > a > div > .text--color-charcoalTint, .text--b {
+    li > a > div > .text--color-charcoalTint,
+    .text--b {
         color: #fff1e6cf;
     }
-    
+
     .vote-temp {
         color: #fff1e6 !important;
     }
@@ -198,14 +204,14 @@ regexp("https://www\\.chollometro\\.com/(?!admin).*") {
     .vote-temp--burn {
         color: #ff2021 !important;
     }
-    
-    .vote-temp--cold{
+
+    .vote-temp--cold {
         color: #075ea4 !important;
     }
 
-    .autoSuggest-suggestion.autoSuggest-suggestion--hoverHighlight:hover{
-    background-color: #e9eaed1f !important;
-}
+    .autoSuggest-suggestion.autoSuggest-suggestion--hoverHighlight:hover {
+        background-color: #e9eaed1f !important;
+    }
 
     .tGrid-row,
     .navMenu-trigger,
@@ -379,10 +385,10 @@ regexp("https://www\\.chollometro\\.com/(?!admin).*") {
     .tabbedInterface-tab {
         color: #e3e3e3 !important;
     }
-    
-    .dropdown-content { 
-    background-color: #2a2a2e;
-}
+
+    .dropdown-content {
+        background-color: #2a2a2e;
+    }
 
     .subNav,
     .vote-box,
