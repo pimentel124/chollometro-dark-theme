@@ -13,6 +13,10 @@ domain("www.dealabs.com"),
 regexp("https://www\\.chollometro\\.com/(?!admin).*") {
 
     
+    .bg--color-bluePale {
+        background-color: #e56e00;
+    }
+
     .autoSuggest-suggestion.autoSuggest-suggestion--selected {
         background-color: #f6f7f90d !important;
     }
