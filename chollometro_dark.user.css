@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           Chollometro tema oscuro + letra vieja
-@version        2.2.2
+@version        2.2.3
 @description    Modo oscuro para Chollometro.com
 @updateURL      https://github.com/pimentel124/chollometro-dark-theme/raw/main/chollometro_dark.user.css
 @author         pimentel124 (https://github.com/pimentel124)
@@ -96,6 +96,11 @@ regexp("https://www\\.chollometro\\.com/(?!admin).*") {
         border-color: #ff7900;
     }
 
+    .conversation-header {
+        background-color: transparent;
+        border-bottom: 4px solid #101010;
+        border-left: 4px solid #101010;
+    }
 
 
     li > div > .input {
@@ -360,7 +365,6 @@ regexp("https://www\\.chollometro\\.com/(?!admin).*") {
     .comments-marker-down::after,
     .comments-marker-up,
     .comments-marker-up::after,
-    .bg--em,
     .thread--type-card {
         background-color: #2a2a2e !important;
     }
@@ -374,6 +378,8 @@ regexp("https://www\\.chollometro\\.com/(?!admin).*") {
     .comments--top-header {
         background-color: transparent !important;
     }
+
+
     .subNav,
     .subNavMenu-link--selected,
     .subNavMenu,
@@ -434,10 +440,29 @@ regexp("https://www\\.chollometro\\.com/(?!admin).*") {
         background-color: #f6f7f929;
     }
 
+    .conversationList-msg {
+        background-color: #4d4d4d !important;
+    }
+
     .conversationList-msg:hover {
         border-top: none;
         background-color: #f6f7f929 !important;
     }
+
+    .conversationList-msg--read {
+        background-color: transparent !important;
+    }
+
+    .conversationList-msg--active {
+        background-color: #ff79004a !important;
+    }
+
+    .conversationList-msg--active:hover {
+        background-color: #ff79007a !important;
+        transition: all .2s linear;
+    }
+
+
 
     .input,
     .inputBox,
