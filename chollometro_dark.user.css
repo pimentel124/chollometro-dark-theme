@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           Chollometro tema oscuro + letra vieja
-@version        2.2.1
+@version        2.2.2
 @description    Modo oscuro para Chollometro.com
 @updateURL      https://github.com/pimentel124/chollometro-dark-theme/raw/main/chollometro_dark.user.css
 @author         pimentel124 (https://github.com/pimentel124)
@@ -23,6 +23,14 @@ regexp("https://www\\.chollometro\\.com/(?!admin).*") {
 
     .checkbox-box {
         background-color: #ffffff0f;
+    }
+
+    .notification-item {
+        background-color: #ff79007a;
+    }
+
+    .notification-item:hover {
+        background-color: #ff891a8a;
     }
 
 
