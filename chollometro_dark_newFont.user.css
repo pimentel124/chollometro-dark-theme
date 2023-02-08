@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           Chollometro tema oscuro
-@version        2.2.4
+@version        2.2.5
 @description    Modo oscuro para Chollometro.com con fuente nueva
 @updateURL      https://github.com/pimentel124/chollometro-dark-theme/raw/main/chollometro_dark_newFont.user.css
 @author         pimentel124 (https://github.com/pimentel124)
@@ -58,9 +58,6 @@ regexp("https://www\\.chollometro\\.com/(?!admin).*") {
     .conversation {
         border-left: 4px solid transparent;
     }
-
-
-
 
     .text--color-charcoalTint .boxSec--priority {
         border-color: #ff2021;
@@ -468,11 +465,9 @@ regexp("https://www\\.chollometro\\.com/(?!admin).*") {
     }
 
 
-
     .input,
     .inputBox,
     .secretCode-codeBox,
-    .toolbar,
     .voucher-code,
     .voucher-teaser,
     .btn--disabled,
@@ -483,6 +478,15 @@ regexp("https://www\\.chollometro\\.com/(?!admin).*") {
     .softMessages-item {
         border: none !important;
     }
+
+
+    .toolbar {
+
+        border: none !important;
+        border-bottom-left-radius: inherit;
+        border-bottom-right-radius: inherit;
+    }
+
     .text--color-price,
     .input--search,
     .conversationList-msgPreview {
