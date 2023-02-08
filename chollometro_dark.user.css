@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           Chollometro tema oscuro + letra vieja
-@version        2.1.6
+@version        2.1.7
 @description    Modo oscuro para Chollometro.com
 @updateURL      https://github.com/pimentel124/chollometro-dark-theme/raw/main/chollometro_dark.user.css
 @author         pimentel124 (https://github.com/pimentel124)
@@ -11,6 +11,13 @@
 @-moz-document domain("www.hotukdeals.com"),
 domain("www.dealabs.com"),
 regexp("https://www\\.chollometro\\.com/(?!admin).*") {
+
+    
+    * {
+        font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    }
+
+
     div.flex.flex--grow-1.overflow--scrollX-raw.snap--xMandatory.hottest--list.hide-scrollbar {
         background-color: #2a2ad5;
     }
@@ -127,11 +134,6 @@ regexp("https://www\\.chollometro\\.com/(?!admin).*") {
         border: none !important;
     }
 
-    
-
-    * {
-        font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-    }
 
     .button--emoji,
     .button--intro-box,

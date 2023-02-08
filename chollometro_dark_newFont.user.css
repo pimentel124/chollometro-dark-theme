@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           Chollometro tema oscuro
-@version        2.1.6
+@version        2.1.7
 @description    Modo oscuro para Chollometro.com con fuente nueva
 @updateURL      https://github.com/pimentel124/chollometro-dark-theme/raw/main/chollometro_dark_newFont.user.css
 @author         pimentel124 (https://github.com/pimentel124)
@@ -11,6 +11,8 @@
 @-moz-document domain("www.hotukdeals.com"),
 domain("www.dealabs.com"),
 regexp("https://www\\.chollometro\\.com/(?!admin).*") {
+
+    
     div.flex.flex--grow-1.overflow--scrollX-raw.snap--xMandatory.hottest--list.hide-scrollbar {
         background-color: #2a2ad5;
     }
@@ -18,6 +20,16 @@ regexp("https://www\\.chollometro\\.com/(?!admin).*") {
     button.comment-option.space--mr-3 {
         color: #8F949B;
     }
+
+    .subNavMenu--menu .subNavMenu-list {
+        background-color: #2a2a2e;
+        color: #e3e3e3;
+    }
+
+    .bg--hover-greyPanel:hover {
+        background-color: #f6f7f90d;
+    }
+
 
     .text--color-charcoalTint .boxSec--priority {
         border-color: #ff2021;
@@ -103,27 +115,20 @@ regexp("https://www\\.chollometro\\.com/(?!admin).*") {
         color: #ff2021;
     }
 
-    .vote-temp {
-        color: #ff2021 !important;
-    }
 
     .text--color-price,
-    .vote-temp,
-    .input--search,
-    .vote-temp--hot,
     .conversationList-msgPreview {
         color: #ff2021 !important;
     }
-    
-    .input--search{
-    border: none !important;
+
+    .text--color-greyShade {
+        color: #fff1e6;
     }
 
-    .cept-vote-temp,
-    .vote-temp,
-    .vote-temp--hot{
-        color: #ff2021 !important;
+    .input--search {
+        border: none !important;
     }
+
 
     .button--emoji,
     .button--intro-box,
@@ -170,18 +175,29 @@ regexp("https://www\\.chollometro\\.com/(?!admin).*") {
         --text-default: #9a9a9c;
     }
 
-    li > a > div > .text--color-charcoalTint {
-        color: #626262;
+    li > a > div > .text--color-charcoalTint, .text--b {
+        color: #fff1e6cf;
+    }
+    
+    .vote-temp {
+        color: #fff1e6 !important;
     }
 
-    div > .vote-temp--hot {
+    .vote-temp--hot {
         color: #ff7900 !important;
     }
 
-    div > .vote-temp--burn {
+    .vote-temp--burn {
         color: #ff2021 !important;
     }
+    
+    .vote-temp--cold{
+        color: #075ea4 !important;
+    }
 
+    .autoSuggest-suggestion.autoSuggest-suggestion--hoverHighlight:hover{
+    background-color: #e9eaed1f !important;
+}
 
     .tGrid-row,
     .navMenu-trigger,
@@ -227,7 +243,7 @@ regexp("https://www\\.chollometro\\.com/(?!admin).*") {
     }
 
     .tabbedInterface-tab--selected.text--b {
-        color: #a6d7ff !important;
+        color: #ff7900 !important;
     }
 
     .tabbedInterface-tab--primary:not(.tabbedInterface-tab--selected):hover {
@@ -310,7 +326,6 @@ regexp("https://www\\.chollometro\\.com/(?!admin).*") {
     .text--overlay,
     .threadItem,
     .cept-thread-content,
-    .input--search,
     .comments-marker-down,
     .comments-marker-down::after,
     .comments-marker-up,
@@ -325,10 +340,9 @@ regexp("https://www\\.chollometro\\.com/(?!admin).*") {
     .voteBar,
     .navDropDown-link:hover,
     .conversationList-msg,
-    .notification-item,
     .softMessages-item,
     .comments--top-header {
-        background-color: #4a4a4f !important;
+        background-color: transparent !important;
     }
     .subNav,
     .subNavMenu-link--selected,
@@ -357,12 +371,16 @@ regexp("https://www\\.chollometro\\.com/(?!admin).*") {
     .tabbedInterface-tab {
         color: #e3e3e3 !important;
     }
+    
+    .dropdown-content { 
+    background-color: #2a2a2e;
+}
+
     .subNav,
     .vote-box,
     .btn--mode-boxSec,
     .btn--mode-boxSec:focus,
     .btn--mode-boxSec:hover,
-    .input--search,
     .popover-content,
     .navDropDown-head,
     .notification-item,
@@ -372,6 +390,26 @@ regexp("https://www\\.chollometro\\.com/(?!admin).*") {
     .conversationList-msg {
         border: none !important;
     }
+
+
+    .notificacion-item {
+        background: #4d4d4d !important;
+    }
+
+    .notification-item--read {
+        background-color: transparent;
+        border-color: #d1d5db;
+    }
+
+    .notification-item--read:hover {
+        background-color: #f6f7f929;
+    }
+
+    .conversationList-msg:hover {
+        border-top: none;
+        background-color: #f6f7f929 !important;
+    }
+
     .input,
     .inputBox,
     .secretCode-codeBox,
@@ -387,9 +425,7 @@ regexp("https://www\\.chollometro\\.com/(?!admin).*") {
         border: none !important;
     }
     .text--color-price,
-    .vote-temp,
     .input--search,
-    .vote-temp--hot,
     .conversationList-msgPreview {
         color: #fff !important;
     }
@@ -463,8 +499,6 @@ regexp("https://www\\.chollometro\\.com/(?!admin).*") {
     .bg--main,
     .voteBar,
     .navDropDown-link:hover,
-    .conversationList-msg,
-    .notification-item,
     .softMessages-item,
     .comments--top-header {
         background-color: #2a2a2e !important;
