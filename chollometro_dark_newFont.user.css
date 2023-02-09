@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           Chollometro tema oscuro
-@version        2.2.8
+@version        2.2.9
 @description    Modo oscuro para Chollometro.com con fuente nueva
 @updateURL      https://github.com/pimentel124/chollometro-dark-theme/raw/main/chollometro_dark_newFont.user.css
 @author         pimentel124 (https://github.com/pimentel124)
@@ -273,8 +273,9 @@ regexp("https://www\\.chollometro\\.com/(?!admin).*") {
 
 
     span.comment-like {
-        color: transparent;
+        color: #075ea4;
     }
+
 
     .text--color-charcoalShade {
         color: #e3e3e3;
