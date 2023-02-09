@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           Chollometro tema oscuro
-@version        2.2.9
+@version        2.3.0
 @description    Modo oscuro para Chollometro.com con fuente nueva
 @updateURL      https://github.com/pimentel124/chollometro-dark-theme/raw/main/chollometro_dark_newFont.user.css
 @author         pimentel124 (https://github.com/pimentel124)
@@ -78,6 +78,10 @@ regexp("https://www\\.chollometro\\.com/(?!admin).*") {
         border-top-left-radius: inherit;
         border-top-right-radius: inherit;
         border-color: #ff7900;
+    }
+
+    .comments-item-inner--edit {
+        background-color: transparent;
     }
 
     .input,
@@ -317,13 +321,20 @@ regexp("https://www\\.chollometro\\.com/(?!admin).*") {
     .btn--mode-filter {
         color: #e3e3e3;
     }
-    .linkBlue,
+
     .thread-userOptionTeaser,
-    .link,
-    .staticPageHtml a,
-    .userHtml a {
+    .staticPageHtml a {
         color: transparent;
     }
+
+    .commentList-comment--highlighted {
+        background-color: #ff891a75;
+    }
+
+    .userHtml a {
+        color: #7cc2ef;
+    }
+
     .subNavMenu-btn,
     span.subNavMenu-btn.subNavMenu-hide--menu-selected {
         border: 1px solid #d1d5db;
@@ -561,7 +572,7 @@ regexp("https://www\\.chollometro\\.com/(?!admin).*") {
         background: #bfc3c8;
     }
     .bg--color-greyPanel {
-        background-color: #2d2c2c;
+        background-color: #121314;
     }
     .nav,
     .threadItem-metaRibbons,
