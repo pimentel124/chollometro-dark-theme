@@ -17,6 +17,10 @@ regexp("https://www\\.chollometro\\.com/(?!admin).*") {
         background-color: #e56f00;
     }
 
+    .flex--expand-v{
+        background: #101010;
+    }
+    
     .checkbox-box {
         background-color: #ffffff0f;
     }
